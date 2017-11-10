@@ -1,0 +1,14 @@
+construct==2.5.3
+Django==1.10.8
+django-haystack==2.6.1
+future==0.16.0
+haystack==0.42
+jieba==0.39
+Markdown==2.6.9
+pefile==2017.9.3
+Pygments==2.2.0
+PyMySQL==0.7.11
+python-ptrace==0.9.3
+pytz==2017.2
+six==1.11.0
+Whoosh==2.7.4
