@@ -3,7 +3,7 @@ from django.db import models
 from django.urls import reverse
 from django.utils.html import strip_tags
 from django.contrib.auth.models import User
-from django.utils.six import python_2_unicode_compatible    # Py2开发使用的装饰器
+# from django.utils.six import python_2_unicode_compatible    # Py2开发使用的装饰器
 
 # Create your models here.  ——创建文章数据表
 
