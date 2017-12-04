@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+
+{% block header %}
+    <h3>
+        <a href="{% url 'yj_logs:topic' topic.id %}">{{ topic }}</a>
+    </h3>
+{% endblock header %}
+
+{% block content %}
+
+    <h4>新文章：</h4>
+
+    <form method="post" action="{% url 'blog:new_entry' topic.id %}" class="form">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+
+        {% buttons %}
+            <button name="submit" class="btn btn-primary">完成</button>
+        {% endbuttons %}
+    </form>
+
+{% endblock content %}
