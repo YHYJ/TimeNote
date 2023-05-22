@@ -1,7 +1,5 @@
 # [时光笔记](yj1516.site)
 
-领取[服务器幸运券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=6lkfnwma&utm_source=6lkfnwma)
-
 ### 开发环境
 
 * **OS**：deepin 15.4.1
